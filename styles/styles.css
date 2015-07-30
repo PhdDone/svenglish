@@ -1,0 +1,424 @@
+@import "/node_modules/materialize-css/bin/materialize.css";
+@import "http://fonts.googleapis.com/css?family=Abel";
+@import "http://fonts.googleapis.com/css?family=Oswald:400,300,700";
+#index-banner {
+  background-size: cover;
+  height: 75vh;
+  background: #000000;
+  position: relative;
+}
+#index-banner #network {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+#index-banner .container {
+  height: 80%;
+  position: relative;
+}
+#index-banner .container .container-content {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+#index-banner .container .container-content .headerbox {
+  display: inline-block;
+}
+body,
+html {
+  min-height: 100%;
+}
+#mainwrapper {
+  font-family: 'Abel', sans-serif;
+}
+footer.page-footer {
+  margin: 0;
+}
+footer.page-footer li svg {
+  margin: 0 10px 0 0 ;
+}
+section a {
+  text-decoration: none;
+  color: #b0bec5;
+}
+section a:hover {
+  border-bottom: 2px dotted #ff9800;
+}
+.lnr {
+  display: inline-block;
+  fill: currentColor;
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.05em;
+}
+.mainpoints li {
+  margin: 10px 0;
+}
+.clr {
+  display: block;
+  zoom: 1;
+}
+.clr:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.node {
+  stroke: none;
+  stroke-width: 1.5px;
+}
+.node.colored {
+  stroke: #ffcc80;
+  fill: #ff9800 !important;
+  opacity: 0.75;
+}
+.link {
+  fill: none;
+  stroke: rgba(255, 255, 255, 0.3);
+}
+.node:not(:hover) .nametag {
+  display: none;
+  font-size: 30px;
+}
+section {
+  padding: 50px 0;
+}
+section h1,
+section h2,
+section h3,
+section h4,
+section h5 {
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+}
+#what .row {
+  min-height: 430px;
+}
+#what .analytics-container {
+  position: relative;
+  width: 100%;
+}
+#what .analytics-container .choices {
+  width: 100%;
+  max-width: 650px;
+  min-width: 300px;
+  position: relative;
+  margin: 0 auto;
+  min-height: 170px;
+}
+#what .analytics-container .choices .choice-description {
+  position: absolute;
+  top: 0;
+  max-width: 400px;
+  min-height: 150px;
+  border: 2px dotted #000000;
+  margin: 0;
+  transform: scaleX(0);
+  z-index: 0;
+  background: #ffffff;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#what .analytics-container .choices .choice-description.current {
+  left: 75px;
+  transform-origin: left;
+  padding: 10px 10px 10px 80px;
+  border-left: none;
+}
+#what .analytics-container .choices .choice-description.semap {
+  right: 75px;
+  transform-origin: right;
+  padding: 10px 80px 10px 10px;
+  border-right: none;
+}
+#what .analytics-container .choices .choice-description.active {
+  border: 2px dotted #ff9800;
+  z-index: 6;
+  transform: scaleX(1);
+}
+#what .analytics-container .choices .choice-title {
+  position: absolute;
+  top: 0;
+  padding: 30px 20px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px dotted #000000;
+  text-align: center;
+  background: #ffffff;
+  margin: 0;
+  z-index: 5;
+}
+#what .analytics-container .choices .choice-title:hover {
+  cursor: pointer;
+}
+#what .analytics-container .choices .choice-title.current {
+  left: 0;
+}
+#what .analytics-container .choices .choice-title.semap {
+  right: 0;
+}
+#what .analytics-container .choices .choice-title.active {
+  border: 2px dotted #ff9800;
+  z-index: 7;
+  cursor: pointer;
+}
+#what .analytics-container .analytic-image {
+  position: relative;
+  z-index: 1;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#what .analytics-container .analytic-image .image-container {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transform: scaleY(0);
+  width: 100%;
+  max-width: 450px;
+  display: block;
+  margin: 0 auto;
+}
+#what .analytics-container .analytic-image .image-container.active {
+  transform: scaleY(1);
+}
+#what .analytics-container .analytic-image .image-container img.analytics {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  max-width: 100%;
+  background: #ffffff;
+  position: absolute;
+  top: 150px;
+}
+#what .whatcolumn {
+  position: relative;
+  min-height: 400px;
+}
+#what .whatcolumn:hover .whatheader {
+  background: rgba(255, 255, 255, 0.2);
+}
+#what .whatcolumn:hover .whatheader .whattitle h5 {
+  left: 0;
+  right: 0;
+}
+#what .whatcolumn:hover .whatheader .whatgraphic-exo {
+  left: 0;
+}
+#what .whatcolumn:hover .whatheader .whatgraphic-exo .whatgraphic {
+  left: 0;
+  transform: rotate(-45deg);
+}
+#what .whatcolumn .whatheader {
+  min-height: 150px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.8);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#what .whatcolumn .whatheader .whattitle {
+  position: absolute;
+  left: 50%;
+  margin: 0;
+}
+#what .whatcolumn .whatheader .whattitle h5 {
+  position: relative;
+  left: -50%;
+  line-height: 150px;
+  margin: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#what .whatcolumn .whatgraphic-exo {
+  position: absolute;
+  left: 50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#what .whatcolumn .whatgraphic-exo .whatgraphic {
+  height: 150px;
+  max-height: 150px;
+  margin: 0 auto;
+  display: block;
+  z-index: -1;
+  position: relative;
+  left: -50%;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+#about {
+  background: #000000;
+  position: relative;
+}
+#about h3 {
+  color: #ffffff;
+}
+#about #biobox .matename {
+  color: #ffffff;
+}
+#about #biobox .matetitle {
+  color: rgba(255, 255, 255, 0.5);
+}
+#about #biobox .matebio {
+  color: #ffffff;
+}
+#about #teambox {
+  position: relative;
+}
+#about #teambox #teamgraph svg {
+  max-height: 500px;
+}
+#how {
+  background: #eceff1;
+}
+#how .steps .step1,
+#how .steps .step2,
+#how .steps .step3,
+#how .steps .currently {
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transform: scale(0);
+}
+#how .steps .step1.scaleIn,
+#how .steps .step2.scaleIn,
+#how .steps .step3.scaleIn,
+#how .steps .currently.scaleIn {
+  transform: scale(1);
+}
+#how .steps .step1 .step:before {
+  position: absolute;
+  content: '';
+  height: 5px;
+  border-top: 2px dotted #ff9800;
+  width: 200%;
+  top: 25px;
+  left: 50%;
+  -webkit-transition: all 1s linear;
+  -moz-transition: all 1s linear;
+  -ms-transition: all 1s linear;
+  -o-transition: all 1s linear;
+  transition: all 1s linear;
+  transform-origin: left;
+  transform: scaleX(0);
+}
+#how .steps .step1 .step.active:before {
+  transform: scaleX(1);
+}
+#how .step {
+  margin: 0 auto;
+  max-width: 500px;
+}
+#how .circlenum {
+  display: block;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #333;
+  color: #333;
+  padding: 10px;
+  text-align: center;
+  line-height: 30px;
+  margin: 0 auto;
+  background: #eceff1;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+#how .circlenum:hover,
+#how .circlenum.active {
+  cursor: default;
+  transform: scale(1.2);
+  border: 2px dotted #ff9800;
+}
+#how .explainstep {
+  margin: 15px auto;
+  display: block;
+  min-height: 80px;
+}
+#who #pharma .researchlink {
+  text-transform: uppercase;
+  text-align: center;
+}
+#topbar .brand-logo img {
+  max-height: 30px;
+  margin: 15px 10px;
+}
+#topbar ul li:hover {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+@media only screen and (max-width: 993px) {
+  #what .whatcolumn {
+    min-height: 330px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #how .circlenum {
+    float: left;
+    display: inline-block;
+    margin: 0 10px 0 0;
+  }
+  #how .explainstep {
+    float: left;
+    display: inline-block;
+    width: calc(100% - 60px);
+    margin: 0 0 15px 0;
+  }
+  #how .steps .step1 .step:before {
+    position: absolute;
+    content: '';
+    height: 200%;
+    border: none;
+    border-left: 2px dotted #ff9800;
+    width: 5px;
+    top: 25%;
+    left: 35px;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s linear;
+    -ms-transition: all 1s linear;
+    -o-transition: all 1s linear;
+    transition: all 1s linear;
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  #how .steps .step1 .step.active:before {
+    transform: scaleY(1);
+  }
+}
+@media only screen and (max-width: 420px) {
+  #what .analytics-container .analytic-image .image-container img.analytics {
+    top: 230px;
+  }
+}
