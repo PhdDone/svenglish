@@ -1,0 +1,125 @@
+{
+ "company": "data2discovery",
+ "logo": "../images/logo/d2d-white.png",
+ "children": [
+  {
+   "name": "LEADERSHIP",
+   "children": [
+    {
+      "hero": "David Wild",
+      "group": "CEO",
+      "link": "https://sites.google.com/site/davidjwild/home",
+      "img":  "../images/vip/leadership/david-wild.png",
+      "size": 40000,
+      "bio": "Associate Professor, Indiana University School of Informatics and Computing directing the Cheminformatics and Chemogenomics Research Group focused on large-scale semantic integration and data mining.   David has been a Principal Investigator on grants totaling $2+ million and published over 40 peer-reviewed articles.  A founding member of the International Society for Computational Biology and Trustee of the Chemical Structure Association Trust, David is Editor-in-Chief of the Journal of Cheminformatics.   Prior to becoming an academic, David was Senior Scientist at Pfizer Global R&D. Heâ€™s responsible for overseeing the technology production behind SEMAPâ„¢, meeting and contacting potential customers, and participates in business development facets. David is ultimately responsible for the success of D2D. "
+    },
+    {
+      "hero": "Ying Ding",
+      "group": "Chief Scientific Officer",
+      "link": "http://info.slis.indiana.edu/~dingying/",
+      "img":  "../images/vip/leadership/yingding.png",
+      "size": 40000,
+      "bio": "Ying is Associate Professor in Indiana University School of Informatics and Computing where she directs the Web Science Lab. She worked with leading European universities to establish Semantic Web as a research field.  Author of over 170 papers, Ying co-directs the Network of Excellence on Semantic Web funded by the EU. Previously, she was Senior Researcher at the Free University of Amsterdam, and Assistant Professor at the University of Innsbruck.  She is a co-author of chapters in Spinning the Semantic Web and co-editor of a book series on Semantic Web. As both Vice Chair and CSO, Ying has considerable strategic input, is responsible for managing the programming behind SEMAPâ„¢, and serves to raise funds for D2D through her connections in the NSF."
+    },
+    {
+      "hero": "Greg Mattes", 
+      "group": "Project Manager",
+      "img":  "../images/vip/leadership/greg_mattes.png",
+      "size": 40000,
+      "bio": "Mr. Mattes is responsible for projectÂ management andÂ grant fund raising activities. Â HeÂ alsoÂ serves the CEO of the tech startup Analog Computing Solutions, developing low-power signal processing hardware for a variety of energy constrained applications. Â Greg recentlyÂ received his MBA from the Kelley School of Business at Indiana University where he served as the president of the MBA Association while majoring in Entrepreneurship & Corporate Innovation as well as Marketing.Â  Prior to coming to Kelley, he attended Purdue University, majoring in Mechanical Engineering.Â  He spent the following five years with NASA at the Johnson Space Center where he was a Space Shuttle flight controller and a mission planner for an unmanned lunar rover."
+    },
+    {
+      "hero": "Kyle Stirling", 
+      "group": "Technology Resource Management",
+      "img":  "../images/vip/leadership/kyle-stirling.png",
+      "size": 40000,
+      "bio": "Located in Silicon Valley, Kyle is a Senior Consultant with Panoscopix Software, Inc. and is also a part time faculty member of the Digital Media Management Program at Cogswell Polytechnical College teaching business development, negotiation, marketing, and service design.  Kyle provides advisory work and interim leadership for various startups as a consultant. He has served in account management and sales leadership roles with Iona Technologies, ILOG, McKesson, and Hospital Cost Consultants.  His client list includes many blue chip organizations including, Blue Shield California, Intel, Wells Fargo, The Gap, PriceWaterhouseCoopers, Microsoft, Visa, Alcatel, Eriksson, Barclays Global Financial Services, Bank of America, Kaiser Permanente, and Bonneville Power Administration. Kyle is responsible for recruiting potential clients and employees back to John and David. He works primarily from the Silicon Valley and hires computer programmers. He has hired Jeremy, Randy, and Jim Watson for D2D. Kyle is also responsible for opening various opportunities for D2D partnerships. "
+    },
+    {
+      "hero": "John Hill", 
+      "group": "Chief Operating Officer",
+      "link": "http://kelley.iu.edu/Accounting/faculty/page12887.cfm?ID=8277",
+      "img":  "../images/vip/leadership/john-hill.png",
+      "size": 40000,
+      "bio": "Formerly Associate Dean and Arthur M. Weimer Chair at the Kelley School of Business, Indiana University, John also serves on the board of Analog Computing Solutions, Inc.  While Kelley faculty, John spent 10 years part-time as a Senior Advisor to first RMA Advisors, LLP (turnaround and profit-improvement consulting) and later the Valuation Forensics Services Group of public accounting firm CliftonLarsonAllen, LLP.  John worked 10 years in banking, 4 as CFO.  He is also a retired Marine Corps Major General and formerly Vice Commander, Marine Forces Atlantic, Europe & South. John is responsible for business development, managing D2Dâ€™s team, and plays an integral role in determining business strategy as well as day-to-day business decisions."
+    }
+  ]
+  },
+  {
+   "name": "DEVELOPMENT",
+   "children": [
+    {
+      "hero": "Brian Foote",
+      "group": "development",
+      "size": 40000,
+      "img":  "../images/vip/dev/brian-foote.png",
+      "bio": ""
+    },
+    {
+      "hero": "Randy Kerber",
+      "group": "Technical Developer",
+      "size": 40000,
+      "img":  "../images/vip/dev/randy-kerber.png",
+      "bio": "Randy has received a degree in computer science from University of Minnesota, and a Masterâ€™s degree in computing engineering from University of Southern California. Randy has held positions as data mining specialist, senior software consultant, chief data officer, and now operates his own independent software technology consulting agency based in California. Randy is the lead technical developer and oversees all programming and coding operations for D2D.  He is responsible, like Jeremy, for creating and maintaining SEMAPâ„¢ technology."
+    },
+    {
+      "hero": "Jeremy Yang",
+      "group": "Technical Developer",
+      "size": 40000,
+      "img":  "../images/vip/dev/jeremy-yang.png",
+      "bio": "Jeremy graduated from McGill University in 1982 with a degree in electrical engineering, received his masterâ€™s degree from University of California, Berkley in 1986, and is pursuing his PhD in informatics (expected in 2016) from IU. Jeremy has experience in various software companies as Vice President and Senior Software Engineer. Jeremey has a variety of software skills in coding.  He has also been featured in several publications in the area of drug discovery. Jeremy is D2Dâ€™s secondary technical developer and domain expert in pharmaceutical applications. He works extensively with Randy Kerber and is responsible for creating and maintaining SEMAPâ„¢ technology."
+    },
+    {
+      "hero": "Steph Weatherall",
+      "group": "Web Designer/Developer",
+      "size": 40000,
+      "img":  "../images/vip/dev/steph-weatherall.png",
+      "bio": "This website was brought to you by: Steph. With special thanks to: Bootstrap, MaterializeCSS, D3, Gulp, Bower, NodeJS, LESS, jQuery, Coffeescript and Javascript in general."
+    }
+   ]
+  },
+  {
+   "name": "ADVISORS",
+   "children": [
+    {
+      "hero": "Gary Anderson",
+      "group": "advisor",
+      "size": 40000,
+      "img":  "../images/vip/advisors/ganderson.png",
+      "bio": "Gary is a retired Managing General Partner and now Emeritus Managing Partner of TL Ventures with over $2 billion invested capital in multiple technologies.  Gary has guided more than 30 companies through successful IPOs, mergers, and acquisitions. Previously, Gary was EVP of Safeguard Scientifics, Inc. guiding corporate technology strategy and managing several successful IT portfolio companies. He has served as CEO of several software companies and consultant or advisor to Hewlett-Packard Corporation, Motorola and other Fortune 500 companies.   Gary currently chairs the Indiana University Investment Committee, the Jacobs School of Music, and the Executive Committee of the Innovate Indiana Fund. Garyâ€™s experience with technology startups is a great asset for D2D in the areas of mergers and acquisitions.  He also serves as the principal liaison between the Innovate Indiana Fund, a 10% owner of D2D, and D2Dâ€™s leadership."
+    },
+    {
+      "hero": "Mark Radzik",
+      "group": "advisor",
+      "size": 40000,
+      "img":  "../images/vip/advisors/mark-radzik.png",
+      "bio": "Mark is Managing Partner of Granite Creek Partners, LLC with $88 million under management.  He was previously Managing Director, Equity Group Investments sourcing, structured, and invested in buyouts, growth equity, and distressed companies.  Mark has served on portfolio company boards providing advice on strategy, raising capital, and business development.  Previously Vice President, BNP Paribas for 4 years, he was responsible for sourcing, structuring, negotiating, closing, and syndicating middle-market senior debt investments â€“ making equity co-investments for the bank and closing numerous financings.  Prior to that, he worked in the Special Services Division of Arthur Andersen & Co for 6 years performing due diligence and restructuring services. Markâ€™s primary role is to open new doors for D2D.  He has exclusive contacts in United Healthcare and Willard Bishop that have expressed interest in D2Dâ€™s technologies.  Mark also has a rich background in equity capital, complex financial restructuring and financial management."
+    },
+    {
+      "hero": "Matt Rubin",
+      "group": "advisor",
+      "size": 40000,
+      "img":  "../images/vip/advisors/matt-rubin.png",
+      "bio": "Matt is Associate Director of the top-ranked Johnson Center for Entrepreneurship and Innovation and on the faculty of the Kelley School of Business teaching entrepreneurship and startup formation. Formerly Assistant Director of Technology Commercialization at Indiana University Research & Technology Corporation, Matt has an extensive background spanning several years in evaluating and licensing technologies, facilitating IP protection, and fostering relationships between IU-developed technology companies and industry.  Prior to joining IURTC, Mattâ€™s background was in applied life sciences research.  He is also owner of a successful startup company. Matt assists D2D with advice regarding licensing and contract negotiation as well as startup issues more generally."
+    }
+   ]
+  },
+  {
+   "name": "INTERNS",
+   "children": [
+    {
+      "hero": "Grant Allen",
+      "group": "intern",
+      "size": 40000,
+      "img":  "../images/vip/interns/grant-allen.png"
+    },
+    {
+      "hero": "Keith Radzik",
+      "group": "intern",
+      "size": 40000,
+      "img":  "../images/vip/interns/keith-radzik.png"
+    }
+   ]
+  }
+ ]
+}
