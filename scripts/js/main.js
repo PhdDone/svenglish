@@ -88,7 +88,7 @@
 
   console.log(networksvg);
 
-  d3.json('../../data/miserables.json', function(error, graph) {
+  d3.json('/data/miserables.json', function(error, graph) {
     var bilinks, link, links, node, nodes;
     if (error) {
       throw error;
@@ -185,7 +185,7 @@
 
   console.log(teamgraphsvg);
 
-  d3.json('../../data/team.json', function(json) {
+  d3.json('/data/team.json', function(json) {
     var defs;
     root = json;
     root.fixed = true;

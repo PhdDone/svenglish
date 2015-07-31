@@ -274,11 +274,11 @@ section h5 {
   transition: all 0.5s ease-in-out;
 }
 #about {
-  background: #000000;
+  background: #eceff1;
   position: relative;
 }
 #about h3 {
-  color: #ffffff;
+  color: black;
 }
 #about #biobox .matename {
   color: #ffffff;
@@ -378,6 +378,13 @@ section h5 {
 }
 #topbar ul li:hover {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.leader-img {
+  width: 100%;
+}
+.leader-figure {
+  margin: 0px;
 }
 @media only screen and (max-width: 993px) {
   #what .whatcolumn {
