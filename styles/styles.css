@@ -376,13 +376,30 @@ section h5 {
   max-height: 40px;
   margin: 15px 10px;
 }
+
 #topbar ul li:hover {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .leader-img {
   width: 100%;
+  display: relative;
+  margin: 0 auto;
+  height: width;
 }
+
+.image-cropper {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
 .leader-figure {
   margin: 0px;
 }
