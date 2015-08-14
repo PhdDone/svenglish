@@ -361,7 +361,7 @@ section h5 {
 #how .circlenum.active {
   cursor: default;
   transform: scale(1.2);
-  border: 2px dotted #ff9800;
+  border: 2px solid black;
 }
 #how .explainstep {
   margin: 15px auto;

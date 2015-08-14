@@ -88,7 +88,7 @@
 
   console.log(networksvg);
 
-  d3.json('/data/miserables.json', function(error, graph) {
+  d3.json('/data/miserables-old.json', function(error, graph) {
     var bilinks, link, links, node, nodes;
     if (error) {
       throw error;
