@@ -121,11 +121,12 @@ section h5 {
   transform: scaleX(0);
   z-index: 0;
   background: #ffffff;
-  -webkit-transition: all 0.5s ease-in-out;
+  /*-webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   -ms-transition: all 0.5s ease-in-out;
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+  */
 }
 #what .analytics-container .choices .choice-description.current {
   left: 75px;
@@ -213,14 +214,14 @@ section h5 {
 #what .whatcolumn:hover .whatheader {
   background: rgba(255, 255, 255, 0.2);
 }
-#what .whatcolumn:hover .whatheader .whattitle h5 {
+#what .whatheader .whattitle h5 {
   left: 0;
   right: 0;
 }
-#what .whatcolumn:hover .whatheader .whatgraphic-exo {
+#what .whatheader .whatgraphic-exo {
   left: 0;
 }
-#what .whatcolumn:hover .whatheader .whatgraphic-exo .whatgraphic {
+#what .whatheader .whatgraphic-exo .whatgraphic {
   left: 0;
   transform: rotate(-45deg);
 }
