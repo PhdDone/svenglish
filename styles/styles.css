@@ -4,8 +4,9 @@
 #index-banner {
   background-size: cover;
   height: 75vh;
-  background: #000000;
+  #background: #ECEFF1;
   position: relative;
+  background-image: url('../images/notepad-926046_960_720.jpg')
 }
 #index-banner #network {
   position: absolute;
