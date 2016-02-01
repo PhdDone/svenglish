@@ -23,38 +23,7 @@
       $('.choice-title').toggleClass('active');
       return $('.image-container').toggleClass('active');
     });
-    return $(window).scroll(function() {
-      return $('.steps').each(function() {
-        var stepsPos, topOfWindow;
-        stepsPos = $(this).offset().top;
-        topOfWindow = $(window).scrollTop();
-        if (stepsPos < topOfWindow + 600) {
-          console.log("steps is < topofwindow");
-          return setTimeout((function() {
-            $('.step1 ').addClass('scaleIn');
-            return setTimeout((function() {
-              $('.step2').addClass('scaleIn');
-              return setTimeout((function() {
-                $('.step3').addClass('scaleIn');
-                return setTimeout((function() {
-                  $('.circlenum.one').addClass('active');
-                  $('.step1 .step').addClass('active');
-                  return setTimeout((function() {
-                    $('.circlenum.two').addClass('active');
-                    return setTimeout((function() {
-                      $('.circlenum.three').addClass('active');
-                      return setTimeout((function() {
-                        return $('.row.currently').addClass('scaleIn');
-                      }), 500);
-                    }), 450);
-                  }), 400);
-                }), 350);
-              }), 250);
-            }), 150);
-          }), 50);
-        }
-      });
-    });
+    return $(window).scroll(function() {});
   });
 
 }).call(this);
