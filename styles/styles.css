@@ -1,6 +1,23 @@
 @import "../node_modules/materialize-css/bin/materialize.css";
 @import "http://fonts.googleapis.com/css?family=Abel";
 @import "http://fonts.googleapis.com/css?family=Oswald:400,300,700";
+
+.card {
+  background-color: white;
+  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.18);
+  -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.18);
+  -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.18);
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.12);
+  -moz-box-shadow: 0px 2px 6px 4px rgba(0,0,0,0.12);
+  transition: all 0.2s;
+}
+
 #index-banner {
   background-size: cover;
   height: 75vh;
@@ -8,44 +25,55 @@
   position: relative;
   background-image: url('../images/notepad-926046_960_720.jpg')
 }
+
 #index-banner #network {
   position: absolute;
   top: 0;
   left: 0;
   z-index: 3;
 }
+
 #index-banner .container {
   height: 80%;
   position: relative;
 }
+
 #index-banner .container .container-content {
   position: relative;
   top: 50%;
   transform: translateY(-50%);
 }
+
 #index-banner .container .container-content .headerbox {
   display: inline-block;
 }
+
 body,
 html {
   min-height: 100%;
 }
+
 #mainwrapper {
   font-family: 'Abel', sans-serif;
 }
+
 footer.page-footer {
   margin: 0;
 }
+
 footer.page-footer li svg {
   margin: 0 10px 0 0 ;
 }
+
 section a {
   text-decoration: none;
   color: #b0bec5;
 }
+
 section a:hover {
   border-bottom: 2px dotted #ff9800;
 }
+
 .lnr {
   display: inline-block;
   fill: currentColor;
@@ -53,13 +81,16 @@ section a:hover {
   height: 1em;
   vertical-align: -0.05em;
 }
+
 .mainpoints li {
   margin: 10px 0;
 }
+
 .clr {
   display: block;
   zoom: 1;
 }
+
 .clr:after {
   content: " ";
   display: block;
@@ -68,26 +99,32 @@ section a:hover {
   clear: both;
   visibility: hidden;
 }
+
 .node {
   stroke: none;
   stroke-width: 1.5px;
 }
+
 .node.colored {
   stroke: #ffcc80;
   fill: #ff9800 !important;
   opacity: 0.75;
 }
+
 .link {
   fill: none;
   stroke: rgba(255, 255, 255, 0.3);
 }
+
 .node:not(:hover) .nametag {
   display: none;
   font-size: 30px;
 }
+
 section {
   padding: 50px 0;
 }
+
 section h1,
 section h2,
 section h3,
@@ -97,13 +134,16 @@ section h5 {
   font-family: 'Oswald', sans-serif;
   font-weight: 400;
 }
+
 #what .row {
   /*min-height: 430px;*/
 }
+
 #what .analytics-container {
   position: relative;
   width: 100%;
 }
+
 #what .analytics-container .choices {
   width: 100%;
   max-width: 650px;
@@ -112,6 +152,7 @@ section h5 {
   margin: 0 auto;
   min-height: 170px;
 }
+
 #what .analytics-container .choices .choice-description {
   position: absolute;
   top: 0;
@@ -129,23 +170,27 @@ section h5 {
   transition: all 0.5s ease-in-out;
   */
 }
+
 #what .analytics-container .choices .choice-description.current {
   left: 75px;
   transform-origin: left;
   padding: 10px 10px 10px 80px;
   border-left: none;
 }
+
 #what .analytics-container .choices .choice-description.semap {
   right: 75px;
   transform-origin: right;
   padding: 10px 80px 10px 10px;
   border-right: none;
 }
+
 #what .analytics-container .choices .choice-description.active {
   border: 2px dotted #ff9800;
   z-index: 6;
   transform: scaleX(1);
 }
+
 #what .analytics-container .choices .choice-title {
   position: absolute;
   top: 0;
@@ -159,20 +204,25 @@ section h5 {
   margin: 0;
   z-index: 5;
 }
+
 #what .analytics-container .choices .choice-title:hover {
   cursor: pointer;
 }
+
 #what .analytics-container .choices .choice-title.current {
   left: 0;
 }
+
 #what .analytics-container .choices .choice-title.semap {
   right: 0;
 }
+
 #what .analytics-container .choices .choice-title.active {
   border: 2px dotted #ff9800;
   z-index: 7;
   cursor: pointer;
 }
+
 #what .analytics-container .analytic-image {
   position: relative;
   z-index: 1;
@@ -182,6 +232,7 @@ section h5 {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #what .analytics-container .analytic-image .image-container {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -194,9 +245,11 @@ section h5 {
   display: block;
   margin: 0 auto;
 }
+
 #what .analytics-container .analytic-image .image-container.active {
   transform: scaleY(1);
 }
+
 #what .analytics-container .analytic-image .image-container img.analytics {
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
@@ -208,24 +261,30 @@ section h5 {
   position: absolute;
   top: 150px;
 }
+
 #what .whatcolumn {
   position: relative;
   min-height: 400px;
 }
+
 #what .whatcolumn:hover .whatheader {
   background: rgba(255, 255, 255, 0.2);
 }
+
 #what .whatheader .whattitle h5 {
   left: 0;
   right: 0;
 }
+
 #what .whatheader .whatgraphic-exo {
   left: 0;
 }
+
 #what .whatheader .whatgraphic-exo .whatgraphic {
   left: 0;
   transform: rotate(-45deg);
 }
+
 #what .whatcolumn .whatheader {
   min-height: 150px;
   position: relative;
@@ -236,11 +295,13 @@ section h5 {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #what .whatcolumn .whatheader .whattitle {
   position: absolute;
   left: 50%;
   margin: 0;
 }
+
 #what .whatcolumn .whatheader .whattitle h5 {
   position: relative;
   left: -50%;
@@ -252,6 +313,7 @@ section h5 {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #what .whatcolumn .whatgraphic-exo {
   position: absolute;
   left: 50%;
@@ -261,6 +323,7 @@ section h5 {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #what .whatcolumn .whatgraphic-exo .whatgraphic {
   height: 150px;
   max-height: 150px;
@@ -275,31 +338,45 @@ section h5 {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
 #about {
   background: #eceff1;
   position: relative;
 }
+
 #about h3 {
   color: black;
 }
+
 #about #biobox .matename {
   color: #ffffff;
 }
+
 #about #biobox .matetitle {
   color: rgba(255, 255, 255, 0.5);
 }
+
 #about #biobox .matebio {
   color: #ffffff;
 }
+
 #about #teambox {
   position: relative;
 }
+
 #about #teambox #teamgraph svg {
   max-height: 500px;
 }
+
 #how {
   background: #eceff1;
 }
+#how .card {
+  width: 30%;
+  margin: 1%;
+  height: 250px;
+}
+
 #how .steps .step1,
 #how .steps .step2,
 #how .steps .step3,
@@ -311,12 +388,14 @@ section h5 {
   transition: all 0.5s ease-in-out;
   transform: scale(0);
 }
+
 #how .steps .step1.scaleIn,
 #how .steps .step2.scaleIn,
 #how .steps .step3.scaleIn,
 #how .steps .currently.scaleIn {
   transform: scale(1);
 }
+
 #how .steps .step1 .step:before {
   position: absolute;
   content: '';
@@ -333,13 +412,16 @@ section h5 {
   transform-origin: left;
   transform: scaleX(0);
 }
+
 #how .steps .step1 .step.active:before {
   transform: scaleX(1);
 }
+
 #how .step {
   margin: 0 auto;
   max-width: 500px;
 }
+
 #how .circlenum {
   display: block;
   font-size: 30px;
@@ -363,21 +445,25 @@ section h5 {
 .step-number h5 {
   text-align: center;
 }
+
 #how .circlenum:hover,
 #how .circlenum.active {
   cursor: default;
   transform: scale(1.2);
   border: 2px solid black;
 }
+
 #how .explainstep {
   margin: 15px auto;
   display: block;
   min-height: 80px;
 }
+
 #who #pharma .researchlink {
   text-transform: uppercase;
   text-align: center;
 }
+
 #topbar .brand-logo img {
   max-height: 40px;
   margin: 15px 10px;
@@ -409,11 +495,13 @@ section h5 {
 .leader-figure {
   margin: 0px;
 }
+
 @media only screen and (max-width: 993px) {
   #what .whatcolumn {
     min-height: 330px;
   }
 }
+
 @media only screen and (max-width: 600px) {
   #how .circlenum {
     float: left;
@@ -446,7 +534,13 @@ section h5 {
   #how .steps .step1 .step.active:before {
     transform: scaleY(1);
   }
+  #how .card {
+
+    width: 100%;
+    height: 200px;
+  }
 }
+
 @media only screen and (max-width: 420px) {
   #what .analytics-container .analytic-image .image-container img.analytics {
     top: 230px;
